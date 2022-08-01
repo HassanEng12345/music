@@ -1,23 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import Songs from './componets/songs';
+import Info from './componets/info';
+import Jinfo from './componets/Jinfo';
+import Jsong from './componets/jsong';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>90s&2000s</h1>
+      <div id='eminem'>
+        <Info />
+        <Songs />
+      </div>
+      <div id='oasis-body'>
+        <Jinfo />
+        <Jsong />
+      </div>
     </div>
   );
 }

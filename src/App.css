@@ -1,38 +1,21 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#oasis-body{
+  background-image: url("https://qph.cf2.quoracdn.net/main-qimg-21dc2239ce9c2f32488dfec2fae4f0a8-lq");
   color: white;
+  padding: 20px
 }
 
-.App-link {
-  color: #61dafb;
+#jsong{
+  background-color: rgba(0, 0, 0, 0.3);  
+  padding: 20px
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#jinfo{
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 20px
+}
+
+#eminem{
+  background-image: url("https://i.discogs.com/CaoiGVGRLciQXQ-ZDZhoWBZ7ZUmg_2wzc9LDaBK1BMI/rs:fit/g:sm/q:90/h:509/w:588/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5Mjcz/Mi0xMTY5NTQxNTQw/LmpwZWc.jpeg") ;
+  color: orangered;  
 }
